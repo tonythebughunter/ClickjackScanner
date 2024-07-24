@@ -1,3 +1,5 @@
+# PREREQUISITE
+python
 # INSTALLATION
 
 git clone https://github.com/tonythebughunter/ClickjackScanner && cd ClickjackScanner && pip install -r requirements.txt
