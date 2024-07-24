@@ -18,3 +18,8 @@ python clickjacker.py <urls_file> [OPTIONS]
 # EXAMPLE
 
 python clickjacker.py all_urls.txt -w 40 -v -o clickjack_vulnerable.txt
+
+# VERBOSE OUTPUT
+Green : vulnerable URLs
+
+Red : non-vulnerable or inaccessible URLs.
