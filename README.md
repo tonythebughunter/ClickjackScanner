@@ -9,11 +9,15 @@ git clone https://github.com/tonythebughunter/ClickjackScanner && cd ClickjackSc
 python clickjacker.py <urls_file> [OPTIONS]
 
 # OPTIONS
--v or --verbose: Enables verbose output.
+-h, --help            show this help message and exit
 
--w or --workers: Specifies the number of concurrent workers.
-
--o or --output: Specifies the output file for vulnerable URLs. Default is vulnerable_urls.txt.
+-w WORKERS, --workers WORKERS
+                        Number of concurrent workers (default: 10)
+                        
+-o OUTPUT, --output OUTPUT
+                        Output file for vulnerable URLs (default: vulnerable_urls.txt)
+                        
+-v, --verbose         Enable verbose output
 
 # EXAMPLE
 
